@@ -1,0 +1,18 @@
+Ongoing:
+- account_settings options
+- flight_settings options
+
+Improve newsletter:
+- make sms feature send only 1 sms with Low Price alerts when code is ran
+- send a confirmation email to signed up newsletter, so that person opens mailbox and presses a subscribe button to sign up to fix some bot spam or wrongly typed mail adding to excel file
+
+TODO:
+- Think of a DBMS
+- Change to Hash passcode
+- allow users to opt for sms service
+
+Applications functionality/Specification
+    - alter account details through account settings
+
+
+# TODO: each service option needs a Q to return to page
