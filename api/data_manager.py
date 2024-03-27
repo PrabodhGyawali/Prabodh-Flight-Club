@@ -1,13 +1,5 @@
 import requests
-
-SHEETY_TOKEN = "############"
-PUT_PRICES_ENDPOINT = f"https://api.sheety.co/edf5d78b6078ccf41042b0ae97ca4812/flightDealsPrab/prices/"
-GET_PRICES_ENDPOINT = "https://api.sheety.co/edf5d78b6078ccf41042b0ae97ca4812/flightDealsPrab/prices"
-GET_USERS_ENDPOINT = "https://api.sheety.co/edf5d78b6078ccf41042b0ae97ca4812/flightDealsPrab/users"
-
-# SETTINGS
-SETTING_GET_ENDPOINT = "https://api.sheety.co/edf5d78b6078ccf41042b0ae97ca4812/flightDealsPrab/settings"
-
+from sqlalchemy import Table
 
 class DataManager:
     # This class is responsible for talking to Sheety API
